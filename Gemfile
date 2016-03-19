@@ -146,12 +146,12 @@ end
 
 group :production do
   gem 'rack-attack'
-  gem 'newrelic_rpm'
+  #gem 'newrelic_rpm'
   gem 'puma'
   gem 'puma_worker_killer'
   gem 'heroku-deflater'
   gem 'rails_12factor'
-  gem 'rollbar'
+  #gem 'rollbar'
   gem 'rack-cache'
   gem 'rack-cors', :require => 'rack/cors'
 end
